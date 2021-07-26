@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastramento</title>
+        <link rel="shortcut icon" href="/assets/plantar.png">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--FONTE-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="home" class="content"> 
+            <main>
+                <div>
+                    <section class="background-two">
+                        <h3>CADASTRO DE CLIENTE</h3>
+                        <form class="form-container" action="">
+                            <label class="sr-only" for="name">Digite seu nome</label>
+                            <input class="input-name" type="text" id="name" placeholder="Digite seu nome">
+                            <label class="sr-only" for="number">Digite seu CPF</label>
+                            <input class="input-name" type="number" id="CPF" placeholder="Digite seu CPF">
+                            <label class="sr-only" for="email">Digite seu e-mail</label>
+                            <input class="input-name" type="email" id="email" placeholder="Digite seu e-mail">
+                            <label class="sr-only" for="telefone">Digite seu telefone</label>
+                            <input class="input-name" type="number" id="telefone" placeholder="Digite seu telefone">
+                            <label class="sr-only" for="endereco">Digite seu endereço</label>
+                            <input class="input-name" type="text" id="endereço" placeholder="Digite seu endereço">
+                            <button id="bt-enviar" onclick="salvarForm()">
+                                Cadastrar
+                            </button>
+                        </form>
+                    </section>
+                    <footer>
+                        <h4 class="name">&copy;Thyrson Resquin</h4>
+                        <a class="footer-link" href="https://github.com/thyrsonresquin">
+                            <img class="img-footer" src="./assets/github.png" alt="GitHub">
+                        </a>
+                        <a class="footer-link" href="https://www.linkedin.com/in/thyrson-resquin/">
+                            <img class="img-footer" src="./assets/linkedin.png" alt="Linkedin">
+                        </a>
+                        
+                    </footer>
+                </div>
+            </main>
+            <script src="./local.js"></script>
+        </div>
+    </body>
+</html>

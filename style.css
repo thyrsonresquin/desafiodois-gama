@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    --pink: rgb(247,25,98);
+    --overlay: #040911;
+    --gray-dark: #4D5E77;
+    --white: #FAFAFA;
+
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+body, button, input{
+    font-size: clamp(14px, 1.6rem, 2vw);
+
+    font-family: 'Poppins';
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+main{
+    margin-top: -12rem;
+}
+
+.background-two{
+    background-image: url(/assets/black-grunge.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+    width: 100%;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+    padding: 200px 0 0;
+    font-weight: 200;
+    font-size: 30px;
+    color: var(--pink);
+    font-family: 'Poppins';
+}
+
+input, button{
+    border-radius: 0.8rem;
+    height: 5rem;
+}
+
+form input{
+    background: #fff;
+    border-radius: 20px;
+    padding: 25px;
+    max-width: 450px;
+}
+
+input{
+    display: flex;
+
+    background: var(--white);
+    border: 0.2rem solid var(--gray-dark);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+button{
+    
+    font-weight: 500;
+    line-height: 0;
+    width: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px auto;
+
+    background: var(--pink);
+    color: white;
+
+    transition: filter 0.2s;
+
+    cursor: pointer;
+}
+
+button:hover{
+    filter: brightness(1.2);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--pink);
+    width: 100%;
+    height: 60px;
+}
+
+.img-footer{
+    height: 40px;
+    padding: 5px;
+}
+
+.name{
+    padding: 20px;
+    font-size: 20px;
+}
+
