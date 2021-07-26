@@ -6,5 +6,5 @@ Repositório do segundo desafio do programa Hiring Coders#2, criação de uma p�
 [Thyrson Resquin](https://www.linkedin.com/in/thyrson-resquin/)
 
 ## Hospedagem (Vercel)
-[Cadastro](https://desafio-gama-landingpage.vercel.app/)
+[Cadastro](https://desafiodois-gama.vercel.app/)
 
